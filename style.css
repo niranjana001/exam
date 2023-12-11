@@ -209,6 +209,9 @@ h1 {
     padding: 20px;
 }
 
+.social-media-icons > li{
+    padding: 10px;
+}
 
 .learn-more-link {
     display: inline-block;
@@ -273,11 +276,13 @@ footer {
     display: flex;
     flex-direction: column;
     text-align: center;
+    justify-content: space-around;
 }
 
 .footer-column h3 {
     font-size: 18px;
     margin-bottom: 10px;
+    color: orange;
 }
 
 .footer-column ul {
@@ -302,14 +307,15 @@ footer {
 }
 
 .footer-column img {
-    width: 50%; /* Make the image fill the container */
     border-radius: 8px;
+    margin: auto;
+    width: 50%;
 }
 
 /* Responsive CSS */
 
 /* For small devices (phones) */
-@media (max-width: 576px) {
+@media (max-width: 600px) {
     .container {
       padding: 0 5%;
     }
@@ -369,5 +375,7 @@ footer {
     .carousel-item > img {
       height: 600px;
     }
+
+
   }
   
